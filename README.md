@@ -2,7 +2,7 @@
 ## Introdução
 Este é um projeto de banco de dados relacional para um sistema de E-commerce. O modelo foi desenvolvido para atender às necessidades de gerenciamento de clientes, pedidos, produtos, pagamentos, estoque, e outros aspectos essenciais para um ambiente de comércio eletrônico. O banco de dados segue as boas práticas de normalização e estruturação, garantindo escalabilidade, consistência e manutenção fácil.
 
-## Requisitos
+## 📝Requisitos
 * **Produto:**
   * Os Produtos são vendidos por uma unica pltaforma online. Contudo, estes podem ter vendedores distintod(terceiros).
   * Cada produto possui um fornecedor.
@@ -20,7 +20,7 @@ Este é um projeto de banco de dados relacional para um sistema de E-commerce. O
     
     
   
-## Estrutura do Banco de Dados
+## 🗃Estrutura do Banco de Dados
 Abaixo está a descrição de cada tabela do modelo e seu papel no sistema:
 ### **1. Fornecedor**
 
@@ -147,6 +147,13 @@ Abaixo está a descrição de cada tabela do modelo e seu papel no sistema:
   * Previsão_entrega: Data estimada para a entrega.
   * Saida_Entrega: Data de saida da entraga.
   * Pedido_idPedido: Chave estrangeira para a tabela Pedido.
+ 
+ ## 🛠**Modelo**
+ * **Ferramenta utilizada:**
+   * MySQL WorkBench.
+
+[Ecesse aqui o Modelo](https://github.com/siqueirago/Projeto-de-Banco-de-Dados---E-commerce/blob/main/Modelo_ERR.md)
+ 
  
  ## Considerações Finais
 
